@@ -1,0 +1,30 @@
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.all;
+USE ieee.std_logic_unsigned.all;
+entity MEM_WB is
+ port(
+ MEMStage_Output: in std_logic_vector(58 downto 0);
+ clk,rst: in std_logic;
+ MEM_WB_Content: out std_logic_vector(58 downto 0));
+end entity MEM_WB;
+
+
+architecture arch_MEM_WB of MEM_WB is
+
+
+
+component reg_latch IS
+	GENERIC ( n : integer := 16);
+	PORT( Clk_reg_latch , en_reg_latch, Rst_reg_latch : IN std_logic;
+      dataIn_reg_latch : IN std_logic_vector(n-1 DOWNTO 0);
+      dataOut_reg_latch : OUT std_logic_vector(n-1 DOWNTO 0));
+END component;
+
+
+begin
+
+WB_mem: reg_latch generic map(n=>59) port map(clk,'1',rst,MEMStage_Output,MEM_WB_Content);
+
+end arch_MEM_WB;
