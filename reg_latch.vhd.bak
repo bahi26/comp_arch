@@ -14,7 +14,7 @@ END reg_latch;
 
 ARCHITECTURE arch_reg_latch OF reg_latch IS
 BEGIN
-   dataOut_reg_latch <= dataIn_reg_latch WHEN falling_edge(Clk_reg_latch) and Rst_reg_latch='0' and en_reg_latch='1' 
+   dataOut_reg_latch <= dataIn_reg_latch WHEN Clk_reg_latch='0' and Rst_reg_latch='0' and en_reg_latch='1' 
           ELSE (OTHERS=>'0') WHEN Rst_reg_latch ='1';
 
 END arch_reg_latch;

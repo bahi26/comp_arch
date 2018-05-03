@@ -1,0 +1,244 @@
+E:/Projects/kolia/ArchProjectCode/IF_ID.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/IF_ID.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IF_ID
+-- Compiling architecture arch_IF_ID of IF_ID
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux2_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture arch_mux2_1 of mux2_1
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/forward_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/forward_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity forward_unit
+-- Compiling architecture forward_unit_arch of forward_unit
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux3_1.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux3_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux3_1
+-- Compiling architecture arch_mux3_1 of mux3_1
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/InstMem.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/InstMem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstMem
+-- Compiling architecture arch_InstMem of InstMem
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/AND2.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/AND2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Compiling entity AND2
+-- Compiling architecture Data of AND2
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture arch_reg of reg
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux3_2.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux3_2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux3_3
+-- Compiling architecture mux_arch of mux3_3
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex_mem_reg
+-- Compiling architecture ex_mem_arch of ex_mem_reg
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MEM_WB
+-- Compiling architecture arch_MEM_WB of MEM_WB
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/flag_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/flag_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity flag_register
+-- Compiling architecture flag_arch of flag_register
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/processor.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/processor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity processor
+-- Compiling architecture arch_processor of processor
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture arch_adder of adder
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux4x2.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux4x2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4x2
+-- Compiling architecture Data_flow of mux4x2
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/SecondStage.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/SecondStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SecondStage
+-- Compiling architecture arch_SecondStage of SecondStage
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/Ram.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/Ram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ram
+-- Compiling architecture syncrama of ram
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/reg_latch.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/reg_latch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_latch
+-- Compiling architecture arch_reg_latch of reg_latch
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/dec2_4.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/dec2_4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec2_4
+-- Compiling architecture arch_dec2_4 of dec2_4
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity MEM_Stage
+-- Compiling architecture arch_MEM_Stage of MEM_Stage
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/final.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/final.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity WB_Stage
+-- Compiling architecture arch_WB_Stage of WB_Stage
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/FirstStage.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/FirstStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FirstStage
+-- Compiling architecture arch_FirstStage of FirstStage
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/dec3_8.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/dec3_8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec3_8
+-- Compiling architecture arch_dec3_8 of dec3_8
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/Nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/Nadder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Nadder
+-- Compiling architecture arch_Nadder of Nadder
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity forward_unit_dec
+-- Compiling architecture forward_unit_arch of forward_unit_dec
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex_stage
+-- Compiling architecture ex_stage_arch of ex_stage
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/SP_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/SP_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SP_reg
+-- Compiling architecture arch_SP_reg of SP_reg
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/ID_EX.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/ID_EX.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ID_EX
+-- Compiling architecture arch_ID_EX of ID_EX
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity forward_unit_mem
+-- Compiling architecture forward_unit_arch of forward_unit_mem
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture Data_flow of mux
+
+} {} {}}

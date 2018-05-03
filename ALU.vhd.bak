@@ -35,7 +35,7 @@ begin
 	elsif (operation="00011") then--mul
 		result:=source * destination;
 	elsif (operation="00100") then--sub
-		result:="000000000000000" &(('0'&source) - destination);
+		result:="000000000000000" &('0'&ource) - destination;
 		if(result(15 downto 0)="0000000000000000") then
 			flags(0):='1';
 		else 

@@ -12,7 +12,7 @@ begin
 	begin
 		if(rst='1')then
 			dataout<=(others=>'0');
-		elsif falling_edge(clk)then
+		elsif(clk='0')then
 			dataout<=datain;
 		end if;
 	end process;

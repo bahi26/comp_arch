@@ -21,9 +21,9 @@ VcQOQ42YMN_V:k59A7We7b0
 !s100 j8[iidTY64^>HG]1NA]IH1
 Z6 OV;C;10.5c;63
 32
-Z7 !s110 1524912982
+Z7 !s110 1525368024
 !i10b 1
-Z8 !s108 1524912981.000000
+Z8 !s108 1525368024.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/adder.vhd|
 Z10 !s107 E:/Projects/kolia/ArchProjectCode/adder.vhd|
 !i113 1
@@ -48,51 +48,55 @@ R10
 R11
 R12
 Ealu
-Z13 w1524563334
+Z13 w1525370505
 Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
 R3
-Z15 8E:/Projects/kolia/ArchProjectCode/ALU.vhd
-Z16 FE:/Projects/kolia/ArchProjectCode/ALU.vhd
+Z17 8E:/Projects/kolia/ArchProjectCode/ALU.vhd
+Z18 FE:/Projects/kolia/ArchProjectCode/ALU.vhd
 l0
-L4
-VR1bYif;2_RV@Gn0Hc]N`30
-!s100 F4NoCk]<O5W_;^R0<>MUD1
+L6
+V5gU`FJTkc;Q?CbDa5==Z53
+!s100 f^76ijKE?XVlbeM_o`VM^0
 R6
 32
-R7
+Z19 !s110 1525370516
 !i10b 1
-Z17 !s108 1524912982.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/ALU.vhd|
-Z19 !s107 E:/Projects/kolia/ArchProjectCode/ALU.vhd|
+Z20 !s108 1525370516.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/ALU.vhd|
+Z22 !s107 E:/Projects/kolia/ArchProjectCode/ALU.vhd|
 !i113 1
 R11
 R12
 Aalu_arch
 R14
+R15
+R16
 R1
 R2
-DEx4 work 3 alu 0 22 R1bYif;2_RV@Gn0Hc]N`30
-l14
-L12
-VeHFZPh8;b[EBi^fVAKBQ;2
-!s100 SffA`c]?3S4VRM=:zT[LV2
+Z23 DEx4 work 3 alu 0 22 5gU`FJTkc;Q?CbDa5==Z53
+l16
+L14
+V?3l^I2VRH]G8U]14=k@Hj1
+!s100 aQGa?MH;D65XBnBfo9Vi10
 R6
 32
-R7
-!i10b 1
-R17
-R18
 R19
+!i10b 1
+R20
+R21
+R22
 !i113 1
 R11
 R12
 Eand2
-Z20 w1523629795
+Z24 w1523629795
 R3
-Z21 8E:/Projects/kolia/ArchProjectCode/AND2.vhd
-Z22 FE:/Projects/kolia/ArchProjectCode/AND2.vhd
+Z25 8E:/Projects/kolia/ArchProjectCode/AND2.vhd
+Z26 FE:/Projects/kolia/ArchProjectCode/AND2.vhd
 l0
 L1
 V7MVh_c^IYRj?Y9PQ8]keK0
@@ -101,9 +105,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/AND2.vhd|
-Z24 !s107 E:/Projects/kolia/ArchProjectCode/AND2.vhd|
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/AND2.vhd|
+Z28 !s107 E:/Projects/kolia/ArchProjectCode/AND2.vhd|
 !i113 1
 R11
 R12
@@ -117,19 +121,19 @@ R6
 32
 R7
 !i10b 1
-R17
-R23
-R24
+R8
+R27
+R28
 !i113 1
 R11
 R12
 Edec2_4
-Z25 w1523744130
+Z29 w1523744130
 R1
 R2
 R3
-Z26 8E:/Projects/kolia/ArchProjectCode/dec2_4.vhd
-Z27 FE:/Projects/kolia/ArchProjectCode/dec2_4.vhd
+Z30 8E:/Projects/kolia/ArchProjectCode/dec2_4.vhd
+Z31 FE:/Projects/kolia/ArchProjectCode/dec2_4.vhd
 l0
 L6
 VGMUd;h1G;9kl1^9]zbBkb0
@@ -138,9 +142,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/dec2_4.vhd|
-Z29 !s107 E:/Projects/kolia/ArchProjectCode/dec2_4.vhd|
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/dec2_4.vhd|
+Z33 !s107 E:/Projects/kolia/ArchProjectCode/dec2_4.vhd|
 !i113 1
 R11
 R12
@@ -156,19 +160,19 @@ R6
 32
 R7
 !i10b 1
-R17
-R28
-R29
+R8
+R32
+R33
 !i113 1
 R11
 R12
 Edec3_8
-Z30 w1524248774
+Z34 w1524248774
 R1
 R2
 R3
-Z31 8E:/Projects/kolia/ArchProjectCode/dec3_8.vhd
-Z32 FE:/Projects/kolia/ArchProjectCode/dec3_8.vhd
+Z35 8E:/Projects/kolia/ArchProjectCode/dec3_8.vhd
+Z36 FE:/Projects/kolia/ArchProjectCode/dec3_8.vhd
 l0
 L4
 VMb1JS`N2:U7l=?fgz1Tdb0
@@ -177,9 +181,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/dec3_8.vhd|
-Z34 !s107 E:/Projects/kolia/ArchProjectCode/dec3_8.vhd|
+R8
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/dec3_8.vhd|
+Z38 !s107 E:/Projects/kolia/ArchProjectCode/dec3_8.vhd|
 !i113 1
 R11
 R12
@@ -195,19 +199,19 @@ R6
 32
 R7
 !i10b 1
-R17
-R33
-R34
+R8
+R37
+R38
 !i113 1
 R11
 R12
 Eex_mem_reg
-Z35 w1524403202
+Z39 w1525353209
 R1
 R2
 R3
-Z36 8E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
-Z37 FE:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
+Z40 8E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
+Z41 FE:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
 l0
 L3
 V;]9afjTnh[bZ?AhAjCGiR3
@@ -216,9 +220,9 @@ R6
 32
 R7
 !i10b 1
-R17
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd|
-Z39 !s107 E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd|
+R8
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd|
+Z43 !s107 E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd|
 !i113 1
 R11
 R12
@@ -228,36 +232,36 @@ R2
 DEx4 work 10 ex_mem_reg 0 22 ;]9afjTnh[bZ?AhAjCGiR3
 l10
 L9
-VIjkconcIRRnKX_C^H_gdn0
-!s100 Iok65CdK?hJLe71Pj[`]71
+VW7247=3hI=e2;<nGEmT8>2
+!s100 TY@2LIGV^JE[fnZXN_NhE1
 R6
 32
 R7
 !i10b 1
-R17
-R38
-R39
+R8
+R42
+R43
 !i113 1
 R11
 R12
 Eex_stage
-Z40 w1524570271
+Z44 w1525339790
 R1
 R2
 R3
-Z41 8E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
-Z42 FE:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
+Z45 8E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
+Z46 FE:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
 l0
 L3
 VnTIK7N9d@6Cjjz`f^QIE:0
 !s100 EgeXUlNagXU;gnn<Yc?KR0
 R6
 32
-R7
+Z47 !s110 1525368025
 !i10b 1
-R17
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd|
-Z44 !s107 E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd|
+R8
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd|
+Z49 !s107 E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd|
 !i113 1
 R11
 R12
@@ -267,36 +271,36 @@ R2
 DEx4 work 8 ex_stage 0 22 nTIK7N9d@6Cjjz`f^QIE:0
 l43
 L12
-VTXVckfco6;n]=_L@4BzWJ3
-!s100 T5^0dV2Yf0dh0=haU6[8=0
+VHEC?HiF4`EKhWdMM?PCZV2
+!s100 RZ^<NJoA>EchfdZeE`Z7l1
 R6
 32
-R7
+R47
 !i10b 1
-R17
-R43
-R44
+R8
+R48
+R49
 !i113 1
 R11
 R12
 Efirststage
-Z45 w1524507829
+Z50 w1524507829
 R1
 R2
 R3
-Z46 8E:/Projects/kolia/ArchProjectCode/FirstStage.vhd
-Z47 FE:/Projects/kolia/ArchProjectCode/FirstStage.vhd
+Z51 8E:/Projects/kolia/ArchProjectCode/FirstStage.vhd
+Z52 FE:/Projects/kolia/ArchProjectCode/FirstStage.vhd
 l0
 L6
 V6]E0^h7dKJOJSW078ZO`h1
 !s100 43:0ho=D;kig@i8@]CHTi3
 R6
 32
-Z48 !s110 1524912983
+R47
 !i10b 1
-Z49 !s108 1524912983.000000
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/FirstStage.vhd|
-Z51 !s107 E:/Projects/kolia/ArchProjectCode/FirstStage.vhd|
+Z53 !s108 1525368025.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/FirstStage.vhd|
+Z55 !s107 E:/Projects/kolia/ArchProjectCode/FirstStage.vhd|
 !i113 1
 R11
 R12
@@ -310,32 +314,32 @@ V3YmaiMMAm9?dzK5L8WJej2
 !s100 =IcjMkT<?[lXa=TAn4OjS0
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R50
-R51
+R53
+R54
+R55
 !i113 1
 R11
 R12
 Eflag_register
-Z52 w1524568436
+Z56 w1524568436
 R1
 R2
 R3
-Z53 8E:/Projects/kolia/ArchProjectCode/flag_reg.vhd
-Z54 FE:/Projects/kolia/ArchProjectCode/flag_reg.vhd
+Z57 8E:/Projects/kolia/ArchProjectCode/flag_reg.vhd
+Z58 FE:/Projects/kolia/ArchProjectCode/flag_reg.vhd
 l0
 L3
 VWSoW79i93e?Y0c@iaNaYz3
 !s100 SS03PRMBZM04doHF`UJj<2
 R6
 32
-R48
+R47
 !i10b 1
-R49
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/flag_reg.vhd|
-Z56 !s107 E:/Projects/kolia/ArchProjectCode/flag_reg.vhd|
+R53
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/flag_reg.vhd|
+Z60 !s107 E:/Projects/kolia/ArchProjectCode/flag_reg.vhd|
 !i113 1
 R11
 R12
@@ -349,32 +353,32 @@ V<Lge440JgMZ2=4k6^GWXU1
 !s100 LDD?gZCFFd;GNT`0BVOU?1
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R55
-R56
+R53
+R59
+R60
 !i113 1
 R11
 R12
 Eforward_unit
-Z57 w1524909567
+Z61 w1524909567
 R1
 R2
 R3
-Z58 8E:/Projects/kolia/ArchProjectCode/forward_unit.vhd
-Z59 FE:/Projects/kolia/ArchProjectCode/forward_unit.vhd
+Z62 8E:/Projects/kolia/ArchProjectCode/forward_unit.vhd
+Z63 FE:/Projects/kolia/ArchProjectCode/forward_unit.vhd
 l0
 L3
 V=haUnW]651iAL`aiazQG>2
 !s100 h3D@D<f@d:V2AP?HbLM500
 R6
 32
-R48
+R47
 !i10b 1
-R49
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit.vhd|
-Z61 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit.vhd|
+R53
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit.vhd|
+Z65 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit.vhd|
 !i113 1
 R11
 R12
@@ -388,32 +392,32 @@ Vc;nG@9YE0PkRD2mAO;_Oh3
 !s100 8:h]SFKXTIICa50ASo<;@1
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R60
-R61
+R53
+R64
+R65
 !i113 1
 R11
 R12
 Eforward_unit_dec
-Z62 w1524911834
+Z66 w1524911834
 R1
 R2
 R3
-Z63 8E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd
-Z64 FE:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd
+Z67 8E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd
+Z68 FE:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd
 l0
 L3
 V[:5BJ0Nid98eOR]CRQ?H:2
 !s100 YjFhVR_3g5A9]LTm4E8Lh2
 R6
 32
-R48
+R47
 !i10b 1
-R49
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd|
-Z66 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd|
+R53
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd|
+Z70 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit_dec.vhd|
 !i113 1
 R11
 R12
@@ -427,71 +431,71 @@ VE:Pi8HEbh4hKZ5IjEDVaU3
 !s100 nQQj`hBonJnKeaA=m5VRL3
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R65
-R66
+R53
+R69
+R70
 !i113 1
 R11
 R12
 Eforward_unit_mem
-Z67 w1524911310
+Z71 w1525283789
 R1
 R2
 R3
-Z68 8E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd
-Z69 FE:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd
+Z72 8E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd
+Z73 FE:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd
 l0
 L3
-VETM2@:QaUTIBP[k3ogb=m0
-!s100 b?il2I>SQDV>Y_W0aT4b63
+VO>eA;C;D`]`bj=On>Uo340
+!s100 JX7?70ZZ8ORUIEkdK8Le[0
 R6
 32
-R48
+R47
 !i10b 1
-R49
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd|
-Z71 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd|
+R53
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd|
+Z75 !s107 E:/Projects/kolia/ArchProjectCode/forward_unit_mem.vhd|
 !i113 1
 R11
 R12
 Aforward_unit_arch
 R1
 R2
-DEx4 work 16 forward_unit_mem 0 22 ETM2@:QaUTIBP[k3ogb=m0
+DEx4 work 16 forward_unit_mem 0 22 O>eA;C;D`]`bj=On>Uo340
 l9
 L8
-VTknN95D>n49_3B==5c:ZF2
-!s100 JZL8__We8bHMo7=`mlO2j1
+VDAS8NN:MRNI6CfbcGAl>F0
+!s100 HRQhjhz:nWJz[8[35fKY[1
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R70
-R71
+R53
+R74
+R75
 !i113 1
 R11
 R12
 Eid_ex
-Z72 w1524402311
+Z76 w1524402311
 R1
 R2
 R3
-Z73 8E:/Projects/kolia/ArchProjectCode/ID_EX.vhd
-Z74 FE:/Projects/kolia/ArchProjectCode/ID_EX.vhd
+Z77 8E:/Projects/kolia/ArchProjectCode/ID_EX.vhd
+Z78 FE:/Projects/kolia/ArchProjectCode/ID_EX.vhd
 l0
 L6
 V92SN@keW[KdcBI]=R:N421
 !s100 :T_jW?HaV<B6k^U^MSN1^2
 R6
 32
-R48
+R47
 !i10b 1
-R49
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/ID_EX.vhd|
-Z76 !s107 E:/Projects/kolia/ArchProjectCode/ID_EX.vhd|
+R53
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/ID_EX.vhd|
+Z80 !s107 E:/Projects/kolia/ArchProjectCode/ID_EX.vhd|
 !i113 1
 R11
 R12
@@ -505,32 +509,32 @@ VP04;Ok0BARiRDNdF58[>82
 !s100 A8ZO8Z=n@h[B_=^]OYa422
 R6
 32
-R48
+R47
 !i10b 1
-R49
-R75
-R76
+R53
+R79
+R80
 !i113 1
 R11
 R12
 Eif_id
-Z77 w1524510777
+Z81 w1524510777
 R1
 R2
 R3
-Z78 8E:/Projects/kolia/ArchProjectCode/IF_ID.vhd
-Z79 FE:/Projects/kolia/ArchProjectCode/IF_ID.vhd
+Z82 8E:/Projects/kolia/ArchProjectCode/IF_ID.vhd
+Z83 FE:/Projects/kolia/ArchProjectCode/IF_ID.vhd
 l0
 L6
 V?@mjakTT_7ESWFZ7CNnDJ1
 !s100 f=kB9AZM@S4DfRR;MjTmR1
 R6
 32
-R48
+Z84 !s110 1525368026
 !i10b 1
-R49
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/IF_ID.vhd|
-Z81 !s107 E:/Projects/kolia/ArchProjectCode/IF_ID.vhd|
+Z85 !s108 1525368026.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/IF_ID.vhd|
+Z87 !s107 E:/Projects/kolia/ArchProjectCode/IF_ID.vhd|
 !i113 1
 R11
 R12
@@ -544,33 +548,33 @@ V4<fV`SH@5Y0`RLP4>i1Y^1
 !s100 C@IIHZ^z7OLi]E_zFJnB[1
 R6
 32
-R48
+R84
 !i10b 1
-R49
-R80
-R81
+R85
+R86
+R87
 !i113 1
 R11
 R12
 Einstmem
-Z82 w1524540229
+Z88 w1524540229
 R14
 R1
 R2
 R3
-Z83 8E:/Projects/kolia/ArchProjectCode/InstMem.vhd
-Z84 FE:/Projects/kolia/ArchProjectCode/InstMem.vhd
+Z89 8E:/Projects/kolia/ArchProjectCode/InstMem.vhd
+Z90 FE:/Projects/kolia/ArchProjectCode/InstMem.vhd
 l0
 L7
 Vj?>kZndMnIaaU;NCz?lI<3
 !s100 YA5Ie:2CZAkIFZGcgjPE:3
 R6
 32
-R48
+R84
 !i10b 1
-R49
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/InstMem.vhd|
-Z86 !s107 E:/Projects/kolia/ArchProjectCode/InstMem.vhd|
+R85
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/InstMem.vhd|
+Z92 !s107 E:/Projects/kolia/ArchProjectCode/InstMem.vhd|
 !i113 1
 R11
 R12
@@ -585,86 +589,86 @@ V7fWLh52L]RA01mR8U=d[I2
 !s100 H5_^Zmh2j;ifV<0RkHbVB2
 R6
 32
-R48
+R84
 !i10b 1
-R49
 R85
-R86
+R91
+R92
 !i113 1
 R11
 R12
 Emem_stage
-Z87 w1524572945
-Z88 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z89 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z93 w1525336292
+R15
+R16
 R14
 R1
 R2
 R3
-Z90 8E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd
-Z91 FE:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd
+Z94 8E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd
+Z95 FE:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd
 l0
 L6
-V7_GO_N=XlY5ePjOcFLXiN3
-!s100 9H:N62EcTO>11XYGZL71f1
+V_IF>nFAl>Z5_bI5S2FOZQ1
+!s100 o7K`Em`Y6m2W1]Z4JffiS0
 R6
 32
-Z92 !s110 1524912984
+R84
 !i10b 1
-R49
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd|
-Z94 !s107 E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd|
+R85
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd|
+Z97 !s107 E:/Projects/kolia/ArchProjectCode/MEM_Stage.vhd|
 !i113 1
 R11
 R12
 Aarch_mem_stage
-R88
-R89
+R15
+R16
 R14
 R1
 R2
-DEx4 work 9 mem_stage 0 22 7_GO_N=XlY5ePjOcFLXiN3
-l55
-L15
-VS87POegYZB<X:3JBoW=4c2
-!s100 B2O]^6c>^BC>Hf156gBL43
+DEx4 work 9 mem_stage 0 22 _IF>nFAl>Z5_bI5S2FOZQ1
+l62
+L16
+VG;FGcMiEboIHA]6Xc7E360
+!s100 adH1M^daZ`c`aaLF_G4X51
 R6
 32
-R92
+R84
 !i10b 1
-R49
-R93
-R94
+R85
+R96
+R97
 !i113 1
 R11
 R12
 Emem_wb
-Z95 w1524574796
-R88
-R89
+Z98 w1524574796
+R15
+R16
 R14
 R1
 R2
 R3
-Z96 8E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd
-Z97 FE:/Projects/kolia/ArchProjectCode/MEM_WB.vhd
+Z99 8E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd
+Z100 FE:/Projects/kolia/ArchProjectCode/MEM_WB.vhd
 l0
 L6
 VafJncS[mKZT_NHHlj7Cd71
 !s100 dL@iG2ZFO4z@9SPn;7<Yz0
 R6
 32
-R92
+R84
 !i10b 1
-Z98 !s108 1524912984.000000
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd|
-Z100 !s107 E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd|
+R85
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd|
+Z102 !s107 E:/Projects/kolia/ArchProjectCode/MEM_WB.vhd|
 !i113 1
 R11
 R12
 Aarch_mem_wb
-R88
-R89
+R15
+R16
 R14
 R1
 R2
@@ -675,32 +679,32 @@ V]78mZXGYU`^WU;GA4d<NC3
 !s100 MTaYf[NG?hgZgV31mcBQ52
 R6
 32
-R92
+R84
 !i10b 1
-R98
-R99
-R100
+R85
+R101
+R102
 !i113 1
 R11
 R12
 Emux
-Z101 w1524565918
+Z103 w1524565918
 R1
 R2
 R3
-Z102 8E:/Projects/kolia/ArchProjectCode/mux.vhd
-Z103 FE:/Projects/kolia/ArchProjectCode/mux.vhd
+Z104 8E:/Projects/kolia/ArchProjectCode/mux.vhd
+Z105 FE:/Projects/kolia/ArchProjectCode/mux.vhd
 l0
 L4
 VKlf1;0lOOWH;LWoUQ>aUX2
 !s100 1[MAdFVDPl8?k[3MU2]M_1
 R6
 32
-R92
+R84
 !i10b 1
-R98
-Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux.vhd|
-Z105 !s107 E:/Projects/kolia/ArchProjectCode/mux.vhd|
+R85
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux.vhd|
+Z107 !s107 E:/Projects/kolia/ArchProjectCode/mux.vhd|
 !i113 1
 R11
 R12
@@ -714,32 +718,32 @@ VL:BEFcjQPjP;=_Q^O4dd@0
 !s100 DiP0gTlYjURHK2gSP3>dK1
 R6
 32
-R92
+R84
 !i10b 1
-R98
-R104
-R105
+R85
+R106
+R107
 !i113 1
 R11
 R12
 Emux2_1
-Z106 w1524079262
+Z108 w1524079262
 R1
 R2
 R3
-Z107 8E:/Projects/kolia/ArchProjectCode/mux2_1.vhd
-Z108 FE:/Projects/kolia/ArchProjectCode/mux2_1.vhd
+Z109 8E:/Projects/kolia/ArchProjectCode/mux2_1.vhd
+Z110 FE:/Projects/kolia/ArchProjectCode/mux2_1.vhd
 l0
 L6
 VOf>4M3H_oA=Qb05K<1dz^1
 !s100 _47kbSMVi1g`D22k8gf4B2
 R6
 32
-R92
+R84
 !i10b 1
-R98
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux2_1.vhd|
-Z110 !s107 E:/Projects/kolia/ArchProjectCode/mux2_1.vhd|
+R85
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux2_1.vhd|
+Z112 !s107 E:/Projects/kolia/ArchProjectCode/mux2_1.vhd|
 !i113 1
 R11
 R12
@@ -753,32 +757,32 @@ ViMDMAEJl@6J5BgIbl=H=21
 !s100 l;i^L279ET_W4SmiBFYJl3
 R6
 32
-R92
+R84
 !i10b 1
-R98
-R109
-R110
+R85
+R111
+R112
 !i113 1
 R11
 R12
 Emux3_1
-Z111 w1524083570
+Z113 w1524083570
 R1
 R2
 R3
-Z112 8E:/Projects/kolia/ArchProjectCode/mux3_1.vhd
-Z113 FE:/Projects/kolia/ArchProjectCode/mux3_1.vhd
+Z114 8E:/Projects/kolia/ArchProjectCode/mux3_1.vhd
+Z115 FE:/Projects/kolia/ArchProjectCode/mux3_1.vhd
 l0
 L6
 VDIH>>WzQPV9;1[kS0klXH2
 !s100 <Cle@5YQF1^oZH`Po^HQX2
 R6
 32
-R92
+R84
 !i10b 1
-R98
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux3_1.vhd|
-Z115 !s107 E:/Projects/kolia/ArchProjectCode/mux3_1.vhd|
+R85
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux3_1.vhd|
+Z117 !s107 E:/Projects/kolia/ArchProjectCode/mux3_1.vhd|
 !i113 1
 R11
 R12
@@ -792,32 +796,32 @@ Ve7@>QOkV2dAob?jfUdSY43
 !s100 6?Fc:W[z_l[8AkZbEl:>Z3
 R6
 32
-R92
+R84
 !i10b 1
-R98
-R114
-R115
+R85
+R116
+R117
 !i113 1
 R11
 R12
 Emux3_3
-Z116 w1524563213
+Z118 w1524563213
 R1
 R2
 R3
-Z117 8E:/Projects/kolia/ArchProjectCode/mux3_2.vhd
-Z118 FE:/Projects/kolia/ArchProjectCode/mux3_2.vhd
+Z119 8E:/Projects/kolia/ArchProjectCode/mux3_2.vhd
+Z120 FE:/Projects/kolia/ArchProjectCode/mux3_2.vhd
 l0
 L3
 V9VCoLVfo1=]ae7j?kRZb50
 !s100 BQ:CYQ<2:6AVO3>9;b:1m0
 R6
 32
-R92
+Z121 !s110 1525368027
 !i10b 1
-R98
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux3_2.vhd|
-Z120 !s107 E:/Projects/kolia/ArchProjectCode/mux3_2.vhd|
+Z122 !s108 1525368027.000000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux3_2.vhd|
+Z124 !s107 E:/Projects/kolia/ArchProjectCode/mux3_2.vhd|
 !i113 1
 R11
 R12
@@ -831,32 +835,32 @@ VOzhK0WjmZ<>^4lNV2P:ZR3
 !s100 _2`9N7YeKFa8I@5[h^k5o3
 R6
 32
-R92
+R121
 !i10b 1
-R98
-R119
-R120
+R122
+R123
+R124
 !i113 1
 R11
 R12
 Emux4x2
-Z121 w1524564424
+Z125 w1524564424
 R1
 R2
 R3
-Z122 8E:/Projects/kolia/ArchProjectCode/mux4x2.vhd
-Z123 FE:/Projects/kolia/ArchProjectCode/mux4x2.vhd
+Z126 8E:/Projects/kolia/ArchProjectCode/mux4x2.vhd
+Z127 FE:/Projects/kolia/ArchProjectCode/mux4x2.vhd
 l0
 L4
 VmGJfeg2`Um:i=jP=ACdGU0
 !s100 7J;c8=_h?3Db>=EQd[LoH3
 R6
 32
-R92
+R121
 !i10b 1
-R98
-Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux4x2.vhd|
-Z125 !s107 E:/Projects/kolia/ArchProjectCode/mux4x2.vhd|
+R122
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/mux4x2.vhd|
+Z129 !s107 E:/Projects/kolia/ArchProjectCode/mux4x2.vhd|
 !i113 1
 R11
 R12
@@ -870,32 +874,32 @@ V?Z9JdelN[UMai2_IXHUT_2
 !s100 ZAo<i_RBEl:2Dm4@_<>7j1
 R6
 32
-R92
+R121
 !i10b 1
-R98
-R124
-R125
+R122
+R128
+R129
 !i113 1
 R11
 R12
 Enadder
-Z126 w1523744145
+Z130 w1523744145
 R1
 R2
 R3
-Z127 8E:/Projects/kolia/ArchProjectCode/Nadder.vhd
-Z128 FE:/Projects/kolia/ArchProjectCode/Nadder.vhd
+Z131 8E:/Projects/kolia/ArchProjectCode/Nadder.vhd
+Z132 FE:/Projects/kolia/ArchProjectCode/Nadder.vhd
 l0
 L6
 VcO4ZBIIRj2zgEBdfnM<Rz0
 !s100 K1:S:`ll^WH?[10fA6TAi3
 R6
 32
-R92
+R121
 !i10b 1
-R98
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Nadder.vhd|
-Z130 !s107 E:/Projects/kolia/ArchProjectCode/Nadder.vhd|
+R122
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Nadder.vhd|
+Z134 !s107 E:/Projects/kolia/ArchProjectCode/Nadder.vhd|
 !i113 1
 R11
 R12
@@ -909,32 +913,32 @@ V<g=D0cI4al2O[k;<VfAWF0
 !s100 e>^163GDCHzG2SkhG^PJU2
 R6
 32
-R92
+R121
 !i10b 1
-R98
-R129
-R130
+R122
+R133
+R134
 !i113 1
 R11
 R12
 Eprocessor
-Z131 w1524574773
+Z135 w1525339840
 R1
 R2
 R3
-Z132 8E:/Projects/kolia/ArchProjectCode/processor.vhd
-Z133 FE:/Projects/kolia/ArchProjectCode/processor.vhd
+Z136 8E:/Projects/kolia/ArchProjectCode/processor.vhd
+Z137 FE:/Projects/kolia/ArchProjectCode/processor.vhd
 l0
 L6
 Va?ChZW?ZAnW5Fd6oezD7o0
 !s100 VViFdj3O@9[d;I42C=S?f0
 R6
 32
-R92
+R121
 !i10b 1
-R98
-Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/processor.vhd|
-Z135 !s107 E:/Projects/kolia/ArchProjectCode/processor.vhd|
+R122
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/processor.vhd|
+Z139 !s107 E:/Projects/kolia/ArchProjectCode/processor.vhd|
 !i113 1
 R11
 R12
@@ -942,47 +946,47 @@ Aarch_processor
 R1
 R2
 DEx4 work 9 processor 0 22 a?ChZW?ZAnW5Fd6oezD7o0
-l279
+l280
 L86
-V6<POEOk;edH4[[3U3YgZ:3
-!s100 =<NJbA;OZVSiPa_[R03m>1
+V=ELC1HMoZHMk;nEN>>`9^1
+!s100 =OFU_;]ET?`<GZHW?QVz^1
 R6
 32
-R92
+R121
 !i10b 1
-R98
-R134
-R135
+R122
+R138
+R139
 !i113 1
 R11
 R12
 Eram
-Z136 w1524567092
-R88
-R89
+Z140 w1524567092
+R15
+R16
 R14
 R1
 R2
 R3
-Z137 8E:/Projects/kolia/ArchProjectCode/Ram.vhd
-Z138 FE:/Projects/kolia/ArchProjectCode/Ram.vhd
+Z141 8E:/Projects/kolia/ArchProjectCode/Ram.vhd
+Z142 FE:/Projects/kolia/ArchProjectCode/Ram.vhd
 l0
 L7
 VFSR3;@bkMN=T;Nig8D`6o0
 !s100 02oQYFZKdAA]OkmY]]7Jf2
 R6
 32
-Z139 !s110 1524912985
+R121
 !i10b 1
-R98
-Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Ram.vhd|
-Z141 !s107 E:/Projects/kolia/ArchProjectCode/Ram.vhd|
+R122
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/Ram.vhd|
+Z144 !s107 E:/Projects/kolia/ArchProjectCode/Ram.vhd|
 !i113 1
 R11
 R12
 Asyncrama
-R88
-R89
+R15
+R16
 R14
 R1
 R2
@@ -993,32 +997,32 @@ V9BCXIS7R;hk9Eg>S5dzJ^3
 !s100 BNWWPc;dZ3FPK730oRk8c2
 R6
 32
-R139
+R121
 !i10b 1
-R98
-R140
-R141
+R122
+R143
+R144
 !i113 1
 R11
 R12
 Ereg
-Z142 w1524498686
+Z145 w1524498686
 R1
 R2
 R3
-Z143 8E:/Projects/kolia/ArchProjectCode/reg.vhd
-Z144 FE:/Projects/kolia/ArchProjectCode/reg.vhd
+Z146 8E:/Projects/kolia/ArchProjectCode/reg.vhd
+Z147 FE:/Projects/kolia/ArchProjectCode/reg.vhd
 l0
 L7
 VmG5J`hLn_Bl^`>VG]nZ]O1
 !s100 hRJz7ffKT0KbdV3zC5=nS1
 R6
 32
-R139
+R121
 !i10b 1
-Z145 !s108 1524912985.000000
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/reg.vhd|
-Z147 !s107 E:/Projects/kolia/ArchProjectCode/reg.vhd|
+R122
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/reg.vhd|
+Z149 !s107 E:/Projects/kolia/ArchProjectCode/reg.vhd|
 !i113 1
 R11
 R12
@@ -1032,32 +1036,32 @@ V262Z^K84B@Z=6LRcd0:162
 !s100 dY?F9336bCRl=cFHT5g8Z1
 R6
 32
-R139
+R121
 !i10b 1
-R145
-R146
-R147
+R122
+R148
+R149
 !i113 1
 R11
 R12
 Ereg_latch
-Z148 w1524227524
+Z150 w1525353837
 R1
 R2
 R3
-Z149 8E:/Projects/kolia/ArchProjectCode/reg_latch.vhd
-Z150 FE:/Projects/kolia/ArchProjectCode/reg_latch.vhd
+Z151 8E:/Projects/kolia/ArchProjectCode/reg_latch.vhd
+Z152 FE:/Projects/kolia/ArchProjectCode/reg_latch.vhd
 l0
 L8
 Vb2b1X@aPdISB38lEoP;H51
 !s100 V0YOV>=T07k82P]SBH4V>2
 R6
 32
-R139
+R121
 !i10b 1
-R145
-Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/reg_latch.vhd|
-Z152 !s107 E:/Projects/kolia/ArchProjectCode/reg_latch.vhd|
+R122
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/reg_latch.vhd|
+Z154 !s107 E:/Projects/kolia/ArchProjectCode/reg_latch.vhd|
 !i113 1
 R11
 R12
@@ -1067,36 +1071,36 @@ R2
 DEx4 work 9 reg_latch 0 22 b2b1X@aPdISB38lEoP;H51
 l16
 L15
-VJc7f]DW[k7DNXABcCA_c]3
-!s100 1Rk<JU0><N9_3JdddeK7n0
+VBRdQ9GA@ZTXj<RHe6_;oC3
+!s100 H6T47J0n]34ERjz^hVZ3z1
 R6
 32
-R139
+R121
 !i10b 1
-R145
-R151
-R152
+R122
+R153
+R154
 !i113 1
 R11
 R12
 Esecondstage
-Z153 w1524560156
+Z155 w1524560156
 R1
 R2
 R3
-Z154 8E:/Projects/kolia/ArchProjectCode/SecondStage.vhd
-Z155 FE:/Projects/kolia/ArchProjectCode/SecondStage.vhd
+Z156 8E:/Projects/kolia/ArchProjectCode/SecondStage.vhd
+Z157 FE:/Projects/kolia/ArchProjectCode/SecondStage.vhd
 l0
 L6
 V=1j1mg9=YR3F9EiRaBo<U0
 !s100 Y<hjob1Fd8dOiG1W0@noe3
 R6
 32
-R139
+Z158 !s110 1525368028
 !i10b 1
-R145
-Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/SecondStage.vhd|
-Z157 !s107 E:/Projects/kolia/ArchProjectCode/SecondStage.vhd|
+R122
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/SecondStage.vhd|
+Z160 !s107 E:/Projects/kolia/ArchProjectCode/SecondStage.vhd|
 !i113 1
 R11
 R12
@@ -1110,32 +1114,32 @@ V_=Kk1LjSb@FkC`B0?:Dc[3
 !s100 U5H@<SbF^_cHg5fk:g8b52
 R6
 32
-R139
+R158
 !i10b 1
-R145
-R156
-R157
+R122
+R159
+R160
 !i113 1
 R11
 R12
 Esp_reg
-Z158 w1524498418
+Z161 w1524498418
 R1
 R2
 R3
-Z159 8E:/Projects/kolia/ArchProjectCode/SP_reg.vhd
-Z160 FE:/Projects/kolia/ArchProjectCode/SP_reg.vhd
+Z162 8E:/Projects/kolia/ArchProjectCode/SP_reg.vhd
+Z163 FE:/Projects/kolia/ArchProjectCode/SP_reg.vhd
 l0
 L7
 VlgIk1Db?2zS`HDelm74X41
 !s100 5BD6L3eB78E=PkVR?=Nb]3
 R6
 32
-R139
+R158
 !i10b 1
-R145
-Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/SP_reg.vhd|
-Z162 !s107 E:/Projects/kolia/ArchProjectCode/SP_reg.vhd|
+Z164 !s108 1525368028.000000
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/SP_reg.vhd|
+Z166 !s107 E:/Projects/kolia/ArchProjectCode/SP_reg.vhd|
 !i113 1
 R11
 R12
@@ -1149,41 +1153,41 @@ Vhh7>RkSnKC`TL2UcblY]60
 !s100 NA;0zM=]X6lXI=7N2fUIm0
 R6
 32
-R139
+R158
 !i10b 1
-R145
-R161
-R162
+R164
+R165
+R166
 !i113 1
 R11
 R12
 Ewb_stage
-Z163 w1524573865
-R88
-R89
+Z167 w1524573865
+R15
+R16
 R14
 R1
 R2
 R3
-Z164 8E:/Projects/kolia/ArchProjectCode/final.vhd
-Z165 FE:/Projects/kolia/ArchProjectCode/final.vhd
+Z168 8E:/Projects/kolia/ArchProjectCode/final.vhd
+Z169 FE:/Projects/kolia/ArchProjectCode/final.vhd
 l0
 L7
 Voa21zR`]=A;ebmO3SF8<;0
 !s100 @l8=Q;@QhPhm7I5lM_9h`0
 R6
 32
-R48
+R47
 !i10b 1
-R17
-Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/final.vhd|
-Z167 !s107 E:/Projects/kolia/ArchProjectCode/final.vhd|
+R53
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/Projects/kolia/ArchProjectCode/final.vhd|
+Z171 !s107 E:/Projects/kolia/ArchProjectCode/final.vhd|
 !i113 1
 R11
 R12
 Aarch_wb_stage
-R88
-R89
+R15
+R16
 R14
 R1
 R2
@@ -1194,11 +1198,11 @@ VVRVa1D2KKAJN`UTM5^QnR2
 !s100 i0Ea2hTeV?9UcN=N<g^Nc3
 R6
 32
-R48
+R47
 !i10b 1
-R17
-R166
-R167
+R53
+R170
+R171
 !i113 1
 R11
 R12
