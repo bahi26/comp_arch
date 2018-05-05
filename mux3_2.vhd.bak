@@ -8,8 +8,8 @@ entity mux3_3 is
 end entity mux3_3;
 architecture mux_arch of mux3_3 is
 begin
-	output<=mem_input(31 downto 16)when(f="001")
-	else    wb_input (31 downto 16)when(f="011")
+	output<=mem_input(31 downto 16) when(f="001")
+	else    wb_input (15 downto 0) when(f="011")
 	else    mem_input(15 downto 0) when(f="100")
 	else    wb_input (15 downto 0) when(f="101")
 	else    mem_input(15 downto 0) when(f="110")

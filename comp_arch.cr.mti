@@ -6,14 +6,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Compiling entity IF_ID
 -- Compiling architecture arch_IF_ID of IF_ID
 
-} {} {}} E:/Projects/kolia/ArchProjectCode/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux2_1.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux2_1
--- Compiling architecture arch_mux2_1 of mux2_1
-
 } {} {}} E:/Projects/kolia/ArchProjectCode/forward_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/forward_unit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
 -- Loading package STANDARD
@@ -21,6 +13,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Loading package std_logic_1164
 -- Compiling entity forward_unit
 -- Compiling architecture forward_unit_arch of forward_unit
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/mux2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux2_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2_1
+-- Compiling architecture arch_mux2_1 of mux2_1
 
 } {} {}} E:/Projects/kolia/ArchProjectCode/mux3_1.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux3_1.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
@@ -52,14 +52,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Loading package std_logic_1164
 -- Compiling entity reg
 -- Compiling architecture arch_reg of reg
-
-} {} {}} E:/Projects/kolia/ArchProjectCode/mux3_2.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/mux3_2.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux3_3
--- Compiling architecture mux_arch of mux3_3
 
 } {} {}} E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/EX_mem_register.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
@@ -200,6 +192,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 2
 -- Loading package std_logic_1164
 -- Compiling entity forward_unit_dec
 -- Compiling architecture forward_unit_arch of forward_unit_dec
+
+} {} {}} E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/Ex_stage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex_stage
+-- Compiling architecture ex_stage_arch of ex_stage
 
 } {} {}} E:/Projects/kolia/ArchProjectCode/SP_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/Projects/kolia/ArchProjectCode/SP_reg.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
