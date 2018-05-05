@@ -1,9 +1,9 @@
 library ieee;
 use ieee.std_logic_1164.all;
 entity ex_mem_reg is
-	port(datain:in std_logic_vector(95 downto 0);
+	port(datain:in std_logic_vector(101 downto 0);
 	     clk,rst:in std_logic;
-	     dataout:out std_logic_vector(95 downto 0));
+	     dataout:out std_logic_vector(101 downto 0));
 end entity ex_mem_reg;
 
 architecture ex_mem_arch of ex_mem_reg is

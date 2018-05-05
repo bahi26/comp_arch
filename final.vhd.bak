@@ -6,9 +6,9 @@ USE IEEE.numeric_std.all;
 USE ieee.std_logic_unsigned.all;
 entity WB_Stage is
  port(
- MEM_WB_Content: in std_logic_vector(64 downto 0);
+ MEM_WB_Content: in std_logic_vector(59 downto 0);
  clk: in std_logic;
- WB_StageOutput: out std_logic_vector(43 downto 0));
+ WB_StageOutput: out std_logic_vector(38 downto 0));
 end entity WB_Stage;
 
 
@@ -32,7 +32,7 @@ begin
 
 Data2_InMux<=("0000000000000000"&MEM_WB_Content(26 downto 11));
 muxForWB: mux generic map (n=>32) port map (MEM_WB_Content(58 downto 27),Data2_InMux,MEM_WB_Content(1),Data_out);
-WB_StageOutput<=MEM_WB_Content(64 downto 59)&Data_out&MEM_WB_Content(10 downto 5);
+WB_StageOutput<=MEM_WB_Content(59)&Data_out&MEM_WB_Content(10 downto 5);
 
 
 end arch_WB_Stage;

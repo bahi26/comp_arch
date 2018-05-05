@@ -5,9 +5,9 @@ USE IEEE.numeric_std.all;
 USE ieee.std_logic_unsigned.all;
 entity MEM_WB is
  port(
- MEMStage_Output: in std_logic_vector(64 downto 0);
+ MEMStage_Output: in std_logic_vector(59 downto 0);
  clk,rst: in std_logic;
- MEM_WB_Content: out std_logic_vector(64 downto 0));
+ MEM_WB_Content: out std_logic_vector(59 downto 0));
 end entity MEM_WB;
 
 
@@ -25,6 +25,6 @@ END component;
 
 begin
 
-WB_mem: reg_latch generic map(n=>65) port map(clk,'1',rst,MEMStage_Output,MEM_WB_Content);
+WB_mem: reg_latch generic map(n=>60) port map(clk,'1',rst,MEMStage_Output,MEM_WB_Content);
 
 end arch_MEM_WB;

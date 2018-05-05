@@ -205,43 +205,43 @@ architecture arch_processor of processor is
 
   	
   component ex_mem_reg is
-    port(datain:in std_logic_vector(95 downto 0);
+    port(datain:in std_logic_vector(101 downto 0);
 	     clk,rst:in std_logic;
-	     dataout:out std_logic_vector(95 downto 0));
+	     dataout:out std_logic_vector(101 downto 0));
    end component;
 
     component ex_stage is
-    port(ID_EX_Content:in std_logic_vector(64 downto 0);
+	port(ID_EX_Content:in std_logic_vector(65 downto 0);
 	     mem_output,wb_output:in std_logic_vector(31 downto 0);
 	     mem_flag:in std_logic_vector(3 downto 0);
 	     rsd_mem,rsd_wb:in std_logic_vector(5 downto 0);
 	     s13_mem,s13_wb:in std_logic_vector(1 downto 0);
-	     clk,rst,flag_en:in std_logic;
-	     dataout:out std_logic_vector(95 downto 0));
+	     clk,rst,flag_en,msp,wsp:in std_logic;
+	     dataout:out std_logic_vector(101 downto 0));
    end component;
 
    component MEM_Stage is
     port(
-       EX_MEM_Content: in std_logic_vector(95 downto 0);
+       EX_MEM_Content: in std_logic_vector(101 downto 0);
        FromWB: in std_logic_vector(18 downto 0);
        clk: in std_logic;
-       MEM_Stage_Output: out std_logic_vector(58 downto 0));
+       MEM_Stage_Output: out std_logic_vector(64 downto 0));
 
    end component;
 
    component MEM_WB is
     port(
-       MEMStage_Output: in std_logic_vector(58 downto 0);
+       MEMStage_Output: in std_logic_vector(64 downto 0);
        clk,rst: in std_logic;
-       MEM_WB_Content: out std_logic_vector(58 downto 0));
+       MEM_WB_Content: out std_logic_vector(64 downto 0));
    end component;
 
   
      component WB_Stage is
     port(
-        MEM_WB_Content: in std_logic_vector(58 downto 0);
+        MEM_WB_Content: in std_logic_vector(64 downto 0);
         clk: in std_logic;
-        WB_StageOutput: out std_logic_vector(37 downto 0));
+        WB_StageOutput: out std_logic_vector(43 downto 0));
 
    end component;
 
@@ -264,7 +264,7 @@ architecture arch_processor of processor is
    signal ID_EX_Content : std_logic_vector(64 downto 0);
 
    --out from Ex_stage
-   signal Ex_Mem_in,Ex_Mem_out:std_logic_vector(95 downto 0);
+   signal Ex_Mem_in,Ex_Mem_out:std_logic_vector(101 downto 0);
    signal mem_output,wb_output:std_logic_vector(31 downto 0);
    signal mem_flag:std_logic_vector(3 downto 0);
    signal rsd_mem,rsd_wb:std_logic_vector(5 downto 0);
@@ -272,11 +272,11 @@ architecture arch_processor of processor is
    signal flag_en:std_logic;
    signal FWIn:std_logic_vector(18 downto 0);
    -- out from mem stage
-   signal out_of_mem_stage: std_logic_vector(58 downto 0);
+   signal out_of_mem_stage: std_logic_vector(64 downto 0);
    -- out from MEM_WB
-   signal out_of_mem_WB:std_logic_vector(58 downto 0);
+   signal out_of_mem_WB:std_logic_vector(64 downto 0);
    -- out from writeback
-   signal out_from_WB: std_logic_vector(37 downto 0);
+   signal out_from_WB: std_logic_vector(43 downto 0);
 begin
    FWIn<=out_of_mem_WB(10 downto 8)&out_of_mem_WB(26 downto 11);
    mem_output<=Ex_Mem_out(48 downto 17);
@@ -286,13 +286,12 @@ begin
    rsd_wb<=out_from_WB(5 downto 0);
    s13_mem<=Ex_Mem_out(86 downto 85);
    s13_wb<=out_of_mem_WB(3 downto 2);
-
    flag_en<=out_of_mem_WB(0);
 --   processor_FirstStage : FirstStage PORT MAP(enable_PC,processor_Rst,enable_InstMem,processor_Clk,IN_data,IN_d1,IN_M0,IN_M1,selection_PC,Inst_FirstStageToIF_ID,PC_IncrFirstStageToIF_ID);
 --   Processor_IF_ID : IF_ID PORT MAP(Inst_FirstStageToIF_ID,PC_IncrFirstStageToIF_ID,ID_EX_S12,EX_MEM_S12,MEM_WB_S12,is_call,is_jmp,is_jz,is_jn,is_jc,flag_Reg(3),flag_Reg(2),flag_Reg(1),processor_Clk,enable_IF_ID ,processor_Rst,IF_ID_Content);
 --   processor_SecondStage : SecondStage PORT MAP (processor_Clk , IF_ID_Content(25 downto 10) , IF_ID_Content(9 downto 0),Rdest_Mem_WB,WriteData_Mem_WB,WriteSrcDst_enable,readEn_SP,WriteEn_SP,processor_Rst ,processor_Rst ,processor_Rst,processor_Rst,processor_Rst,processor_Rst,sel_LoadOrStore,out_Read_data1_SecondStage,out_Read_data2_SecondStage,out_SrcDes_WB_SecondStage,out_PC_IncrOut_SecondStage);
 --   Processor_ID_EX : ID_EX PORT MAP(processor_Clk,out_PC_IncrOut_SecondStage,out_Read_data1_SecondStage,out_Read_data2_SecondStage,out_SrcDes_WB_SecondStage,EX_Control,MEM_Control,WB_Control,s12_ID_EX,s13_ID_EX,w_r_En_ID_EX,flag_enable,ID_EX_en,processor_Rst,ID_EX_Content);
-   Processor_Execution_Stage:ex_stage port map(ID_EX_Content,mem_output,wb_output,mem_flag,rsd_mem,rsd_wb,s13_mem,s13_wb,processor_Clk,processor_Rst,flag_en,Ex_Mem_in);
+   Processor_Execution_Stage:ex_stage port map(ID_EX_Content,mem_output,wb_output,mem_flag,rsd_mem,rsd_wb,s13_mem,s13_wb,processor_Clk,processor_Rst,flag_en,Ex_Mem_out(96),out_from_WB(38),Ex_Mem_in);
    Processor_EX_MEM:ex_mem_reg port map(Ex_Mem_in,Processor_Clk,Processor_Rst,Ex_Mem_out);
    Processor_MEM_Stage: MEM_Stage port map(Ex_Mem_out,FWIn,Processor_Clk,out_of_mem_stage);
    Processor_MEM_WB: MEM_WB port map (out_of_mem_stage,Processor_Clk,Processor_Rst,out_of_mem_WB);

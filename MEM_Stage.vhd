@@ -5,10 +5,10 @@ USE IEEE.numeric_std.all;
 USE ieee.std_logic_unsigned.all;
 entity MEM_Stage is
  port(
- EX_MEM_Content: in std_logic_vector(95 downto 0);
+ EX_MEM_Content: in std_logic_vector(101 downto 0);
 FromWB: in std_logic_vector(18 downto 0);
  clk: in std_logic;
-MEM_Stage_Output: out std_logic_vector(58 downto 0));
+MEM_Stage_Output: out std_logic_vector(64 downto 0));
 
 end entity MEM_Stage;
 
@@ -68,7 +68,7 @@ muxForAddress: mux4x2 port map ("0000001000000000",EX_MEM_Content(64 downto 49),
 muxForDataIn:  mux4x2 port map(DataIn1,EX_MEM_Content(16 downto 1),SrcOut,DataIn2,EX_MEM_Content(91 downto 90),RamInput);
 DataRam: ram port map(clk,EX_MEM_Content(87),EX_MEM_Content(94),Address(9 downto 0),RamInput,RamOutput);
 muxForMemStage : mux generic map(n=>16) port map (RamOutput,EX_MEM_Content(16 downto 1),EX_MEM_Content(89),muxDataOut);
-MEM_Stage_Output<=EX_MEM_Content(48 downto 17)&muxDataOut&EX_MEM_Content(84 downto 79)&EX_MEM_Content(88)&EX_MEM_Content(86 downto 85)&EX_MEM_Content(95)&EX_MEM_Content(0);
+MEM_Stage_Output<=EX_MEM_Content(101 downto 96)&EX_MEM_Content(48 downto 17)&muxDataOut&EX_MEM_Content(84 downto 79)&EX_MEM_Content(88)&EX_MEM_Content(86 downto 85)&EX_MEM_Content(95)&EX_MEM_Content(0);
 
 
 end arch_MEM_Stage;
