@@ -45,7 +45,7 @@ begin
 mux1:mux3_3 port map(ID_EX_Content(47 downto 32),mem_output,wb_output,f2,src);
 mux2:mux3_3 port map(ID_EX_Content(31 downto 16),mem_output,wb_output,f1,dst);
 flag_reg:flag_register port map(alu_flag_out,mem_flag,flag_en,rst,clk,flag_output);
-execute:alu port map(src,dst,ID_EX_Content(59 downto 55),flag_output,alu_flag_out,alu_output);
+execute:alu port map(src,dst,ID_EX_Content(64 downto 60),flag_output,alu_flag_out,alu_output);
 forward_data:forward_unit port map(rsd_mem,rsd_wb,s13_mem,s13_wb,ID_EX_Content(5 downto 3),ID_EX_Content(2 downto 0),f1,f2);
-dataout<=ID_EX_Content(48)&ID_EX_Content(54 downto 49)&ID_EX_Content(63)&ID_EX_Content(60)&ID_EX_Content(62 downto 61)&ID_EX_Content(5 downto 0)&flag_output&ID_EX_Content(15 downto 6)&src&alu_output&dst&ID_EX_Content(64);
+dataout<=ID_EX_Content(51)&ID_EX_Content(53)&ID_EX_Content(55 downto 54)&ID_EX_Content(57 downto 56)&ID_EX_Content(58)&ID_EX_Content(50)&ID_EX_Content(52)&ID_EX_Content(49 downto 48)&ID_EX_Content(5 downto 0)&flag_output&ID_EX_Content(15 downto 6)&src&alu_output&dst&ID_EX_Content(59);
 end ex_stage_arch;
